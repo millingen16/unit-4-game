@@ -1,9 +1,10 @@
 
 
 body {
-    background: url('../images/leaves-pattern.png');
+    
     margin: 0%;
     padding: 0%;
+    background-image: url("../images/leaves-pattern.png");
 
 }
 
