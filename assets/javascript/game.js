@@ -47,7 +47,7 @@ $("#crystal-image-1").on("click", function() { totalScore = totalScore + crystal
     console.log(totalScore);
     if(totalScore == randomNumber) {
          youWin();
-    } else if (totalScore > randomNumber) { 
+    } else if (totalScore >= randomNumber) { 
          youLoose();
 
     }
@@ -58,7 +58,7 @@ $("#crystal-image-2").on("click", function() { totalScore = totalScore + crystal
     console.log(totalScore);
     if(totalScore == randomNumber) {
          youWin();
-    } else if (totalScore > randomNumber) { 
+    } else if (totalScore >= randomNumber) { 
          youLoose();
 
     }
@@ -69,7 +69,7 @@ $("#crystal-image-3").on("click", function() { totalScore = totalScore + crystal
     console.log(totalScore);
     if(totalScore == randomNumber) {
         youWin();
-    } else if (totalScore > randomNumber) { 
+    } else if (totalScore >= randomNumber) { 
         youLoose();
 
     }
@@ -80,7 +80,7 @@ $("#crystal-image-4").on("click", function() { totalScore = totalScore + crystal
     console.log(totalScore);
     if(totalScore == randomNumber) {
          youWin();
-    } else if (totalScore > randomNumber) { 
+    } else if (totalScore >= randomNumber) { 
         youLoose();
 
     }
